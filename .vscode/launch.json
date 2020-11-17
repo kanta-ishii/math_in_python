@@ -11,6 +11,6 @@
         }
     ],
     "python:autoComplete.extraPaths": [
-        "math_in python/.venv"
+        "math_in_python/.venv"
     ]
 }
