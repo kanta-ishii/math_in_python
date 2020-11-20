@@ -10,9 +10,21 @@ print(r_dec)
 '''均一な乱数'''
 import matplotlib.pyplot as plt
 
-n = 10000 # サンプル数
+n = 1000 # サンプル数
 x = np.random.rand(n) # 0-1の均一な乱数
 y = np.random.rand(n) # 0-1の均一な乱数
+
+plt.scatter(x,y)
+plt.grid()
+plt.show()
+
+'''偏った乱数'''
+import numpy as np
+import matplotlib.pyplot as plt
+
+n = 1000 # サンプル数
+x = np.random.randn(n) # 0-1の均一な乱数
+y = np.random.randn(n) # 0-1の均一な乱数
 
 plt.scatter(x,y)
 plt.grid()
