@@ -20,3 +20,10 @@ a = np.array([2,3]) #縦のベクトルを表す
 
 arrow(s,a,color='black')
 
+plt.xlim([-3,3])
+plt.ylim([-3,3])
+plt.xlabel('x', size=14)
+plt.ylabel('y', size=14)
+plt.grid()
+plt.axes().set_aspect('equal')
+plt.show()
